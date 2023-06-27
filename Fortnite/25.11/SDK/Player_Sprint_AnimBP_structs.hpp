@@ -1,0 +1,87 @@
+#pragma once
+
+// Dumper.
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x01)
+#endif
+
+namespace SDK
+{
+//---------------------------------------------------------------------------------------------------------------------
+// ENUMS
+//---------------------------------------------------------------------------------------------------------------------
+
+
+//---------------------------------------------------------------------------------------------------------------------
+// STRUCTS
+//---------------------------------------------------------------------------------------------------------------------
+
+// 0x157 (0x158 - 0x1)
+// ScriptStruct Player_Sprint_AnimBP.Player_Sprint_AnimBP_C.AnimBlueprintGeneratedConstantData
+struct FAnimBlueprintGeneratedConstantData : public FAnimBlueprintConstantData
+{
+public:
+	uint8                                        Pad_8F32[0x3];                                     // Fixing Size After Last Property..
+	class FName                                  __NameProperty_256;                                // 0x4(0x4)(BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	class FName                                  __NameProperty_257;                                // 0x8(0x4)(BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	int32                                        __IntProperty_258;                                 // 0xC(0x4)(BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	enum class EBlendListTransitionType          __EnumProperty_259;                                // 0x10(0x1)(BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	uint8                                        Pad_8F33[0x7];                                     // Fixing Size After Last Property..
+	TArray<float>                                __ArrayProperty_260;                               // 0x18(0x10)(BlueprintVisible, EditFixedSize)
+	class FName                                  __NameProperty_261;                                // 0x28(0x4)(BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	int32                                        __IntProperty_262;                                 // 0x2C(0x4)(BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	struct FInputScaleBiasClampConstants         __StructProperty_263;                              // 0x30(0x2C)(BlueprintVisible, NoDestructor)
+	float                                        __FloatProperty_264;                               // 0x5C(0x4)(BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	enum class EAnimSyncMethod                   __EnumProperty_265;                                // 0x60(0x1)(BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	enum class EAnimGroupRole                    __ByteProperty_266;                                // 0x61(0x1)(BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                         __BoolProperty_267;                                // 0x62(0x1)(BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	uint8                                        Pad_8F34[0x1];                                     // Fixing Size After Last Property..
+	float                                        __FloatProperty_268;                               // 0x64(0x4)(BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	enum class EAnimSyncMethod                   __EnumProperty_269;                                // 0x68(0x1)(BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	enum class EAnimGroupRole                    __ByteProperty_270;                                // 0x69(0x1)(BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	uint8                                        Pad_8F35[0x2];                                     // Fixing Size After Last Property..
+	class FName                                  __NameProperty_271;                                // 0x6C(0x4)(BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	class UBlendProfile*                         __BlendProfile_272;                                // 0x70(0x8)(BlueprintVisible, ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash)
+	class UCurveFloat*                           __CurveFloat_273;                                  // 0x78(0x8)(BlueprintVisible, ZeroConstructor, NoDestructor, UObjectWrapper, HasGetValueTypeHash)
+	bool                                         __BoolProperty_274;                                // 0x80(0x1)(BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	enum class EAlphaBlendOption                 __EnumProperty_275;                                // 0x81(0x1)(BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	enum class EBlendListTransitionType          __EnumProperty_276;                                // 0x82(0x1)(BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	uint8                                        Pad_8F36[0x5];                                     // Fixing Size After Last Property..
+	TArray<float>                                __ArrayProperty_277;                               // 0x88(0x10)(BlueprintVisible, EditFixedSize)
+	class FName                                  __NameProperty_278;                                // 0x98(0x4)(BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	class FName                                  __NameProperty_279;                                // 0x9C(0x4)(BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	int32                                        __IntProperty_280;                                 // 0xA0(0x4)(BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	uint8                                        Pad_8F37[0x4];                                     // Fixing Size After Last Property..
+	struct FAnimNodeFunctionRef                  __StructProperty_281;                              // 0xA8(0x18)(BlueprintVisible, NoDestructor)
+	struct FAnimSubsystem_PropertyAccess         AnimBlueprintExtension_PropertyAccess;             // 0xC0(0x80)()
+	struct FAnimSubsystem_Base                   AnimBlueprintExtension_Base;                       // 0x140(0x18)()
+};
+
+// 0x28 (0x29 - 0x1)
+// ScriptStruct Player_Sprint_AnimBP.Player_Sprint_AnimBP_C.AnimBlueprintGeneratedMutableData
+struct FAnimBlueprintGeneratedMutableData : public FAnimBlueprintMutableData
+{
+public:
+	uint8                                        Pad_8F38[0x3];                                     // Fixing Size After Last Property..
+	float                                        __FloatProperty;                                   // 0x4(0x4)(BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	float                                        __FloatProperty_0;                                 // 0x8(0x4)(BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                         __BoolProperty_1;                                  // 0xC(0x1)(BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                         __BoolProperty_2;                                  // 0xD(0x1)(BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	uint8                                        Pad_8F39[0x2];                                     // Fixing Size After Last Property..
+	float                                        __FloatProperty_3;                                 // 0x10(0x4)(BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                         __BoolProperty_4;                                  // 0x14(0x1)(BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                         __BoolProperty_5;                                  // 0x15(0x1)(BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	uint8                                        Pad_8F3A[0x2];                                     // Fixing Size After Last Property..
+	float                                        __FloatProperty_6;                                 // 0x18(0x4)(BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	float                                        __FloatProperty_7;                                 // 0x1C(0x4)(BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	float                                        __FloatProperty_8;                                 // 0x20(0x4)(BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	float                                        __FloatProperty_9;                                 // 0x24(0x4)(BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	bool                                         __BoolProperty_10;                                 // 0x28(0x1)(BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif

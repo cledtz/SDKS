@@ -1,0 +1,43 @@
+#pragma once
+
+// Dumper.
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x01)
+#endif
+
+namespace SDK
+{
+//---------------------------------------------------------------------------------------------------------------------
+// CLASSES
+//---------------------------------------------------------------------------------------------------------------------
+
+// 0x30 (0x558 - 0x528)
+// BlueprintGeneratedClass GCN_BurtCharging_Player_Latent.GCN_BurtCharging_Player_Latent_C
+class AGCN_BurtCharging_Player_Latent_C : public AFortGameplayCueNotify_BurstLatent
+{
+public:
+	struct FPointerToUberGraphFrame              UberGraphFrame;                                    // 0x528(0x8)(ZeroConstructor, Transient, DuplicateTransient)
+	class APlayerController*                     GCPlayerController;                                // 0x530(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnTemplate, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)
+	class AFortPlayerPawn*                       FortPlayerPawn;                                    // 0x538(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnTemplate, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)
+	class USoundBase*                            BoostSound;                                        // 0x540(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)
+	class UAudioComponent*                       BoostAudioComponent;                               // 0x548(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, InstancedReference, NoDestructor, HasGetValueTypeHash)
+	class USoundBase*                            BoostEndSound;                                     // 0x550(0x8)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)
+
+	static class UClass* StaticClass()
+	{
+		static class UClass* Clss = UObject::FindClassFast("GCN_BurtCharging_Player_Latent_C");
+		return Clss;
+	}
+
+	bool OnExecute(class AActor* MyTarget, struct FGameplayCueParameters& Parameters, class AFortPlayerPawn* K2Node_DynamicCast_AsFort_Player_Pawn, bool K2Node_DynamicCast_bSuccess, class AFortPlayerController* CallFunc_GetFortPlayerControllerFromActor_ReturnValue);
+	void ExecuteBoostLogic();
+	void BoostEndEvent();
+	void ExecuteUbergraph_GCN_BurtCharging_Player_Latent(int32 EntryPoint, FDelegateProperty_ K2Node_CreateDelegate_OutputDelegate, const struct FTimerHandle& CallFunc_K2_SetTimerDelegate_ReturnValue, bool CallFunc_IsValid_ReturnValue, FInterfaceProperty_ CallFunc_AddGenericCameraLensEffect_ReturnValue, class UFXSystemComponent* CallFunc_GetPrimaryParticleComponent_ReturnValue);
+};
+
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif
