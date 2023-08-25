@@ -1,0 +1,32 @@
+#pragma once
+
+// Dumped with Dumper-7!
+
+
+namespace SDK
+{
+//---------------------------------------------------------------------------------------------------------------------
+// CLASSES
+//---------------------------------------------------------------------------------------------------------------------
+
+// 0x18 (0x14D8 - 0x14C0)
+// WidgetBlueprintGeneratedClass LeavePlatformPartyButton.LeavePlatformPartyButton_C
+class ULeavePlatformPartyButton_C : public UCommonButtonLegacy
+{
+public:
+	struct FPointerToUberGraphFrame              UberGraphFrame;                                    // 0x14C0(0x8)(ZeroConstructor, Transient, DuplicateTransient)
+	class UWidgetAnimation*                      OnHover;                                           // 0x14C8(0x8)(BlueprintVisible, BlueprintReadOnly, ZeroConstructor, Transient, RepSkip, NoDestructor, HasGetValueTypeHash)
+	class UCommonTextBlock*                      CommonTextBlock_41;                                // 0x14D0(0x8)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, DisableEditOnInstance, InstancedReference, RepSkip, NoDestructor, PersistentInstance, HasGetValueTypeHash)
+
+	static class UClass* StaticClass();
+	static class ULeavePlatformPartyButton_C* GetDefaultObj();
+
+	void SetText(class FText New_Text);
+	void BP_OnHovered();
+	void BP_OnUnhovered();
+	void ExecuteUbergraph_LeavePlatformPartyButton(int32 EntryPoint, class UUMGSequencePlayer* CallFunc_PlayAnimation_ReturnValue, class UUMGSequencePlayer* CallFunc_PlayAnimation_ReturnValue_1);
+};
+
+}
+
+
